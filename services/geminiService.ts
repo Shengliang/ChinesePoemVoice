@@ -9,7 +9,7 @@ const ai = new GoogleGenAI({
     : process.env.API_KEY 
 });
 const STORAGE_KEY = 'poem_voice_cache_v1';
-const CLIENT_VERSION = "8.0.0-Poem";
+const CLIENT_VERSION = "8.0.1-Poem";
 
 // --- Cache Logic ---
 const loadCache = (): Map<string, any> => {

@@ -44,7 +44,7 @@ const App: React.FC = () => {
   const [pendingCacheData, setPendingCacheData] = useState<SearchResult | null>(null);
   const [pendingQuery, setPendingQuery] = useState<string>('');
 
-  const CLIENT_VERSION = "8.0.0-Poem";
+  const CLIENT_VERSION = "8.0.1-Poem";
   const [isOnline, setIsOnline] = useState(navigator.onLine);
 
   useEffect(() => {
